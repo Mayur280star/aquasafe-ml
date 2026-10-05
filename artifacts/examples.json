@@ -1,0 +1,62 @@
+[
+ {
+  "name": "Held-out sample, lab result: potable",
+  "true_label": "Potable",
+  "values": {
+   "ph": 7.2697,
+   "Hardness": 155.1575,
+   "Solids": 31161.3684,
+   "Chloramines": 3.1812,
+   "Sulfate": 244.7952,
+   "Conductivity": 506.0101,
+   "Organic_carbon": 17.3855,
+   "Trihalomethanes": 73.1151,
+   "Turbidity": 3.7892
+  }
+ },
+ {
+  "name": "Held-out sample, lab result: not potable",
+  "true_label": "Not potable",
+  "values": {
+   "ph": 5.35,
+   "Hardness": 193.8081,
+   "Solids": 31795.6256,
+   "Chloramines": 8.2178,
+   "Sulfate": 327.2334,
+   "Conductivity": 431.476,
+   "Organic_carbon": 11.7762,
+   "Trihalomethanes": 55.8165,
+   "Turbidity": 3.8387
+  }
+ },
+ {
+  "name": "Held-out sample, borderline",
+  "true_label": "Not potable",
+  "values": {
+   "ph": 7.2394,
+   "Hardness": 211.8728,
+   "Solids": 13911.8266,
+   "Chloramines": 8.2041,
+   "Sulfate": 345.044,
+   "Conductivity": 494.4169,
+   "Organic_carbon": 15.4165,
+   "Trihalomethanes": 32.7456,
+   "Turbidity": 4.5318
+  }
+ },
+ {
+  "name": "Held-out sample with a missing pH reading",
+  "true_label": "Not potable",
+  "values": {
+   "ph": null,
+   "Hardness": 118.9886,
+   "Solids": 14285.5839,
+   "Chloramines": 7.8042,
+   "Sulfate": 268.6469,
+   "Conductivity": 389.3756,
+   "Organic_carbon": 12.706,
+   "Trihalomethanes": 53.9288,
+   "Turbidity": 3.595
+  }
+ }
+]
